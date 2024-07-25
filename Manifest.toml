@@ -2,7 +2,7 @@
 
 julia_version = "1.10.4"
 manifest_format = "2.0"
-project_hash = "3ec050ed70b3518b39f6b560dbf529c7ba337d7c"
+project_hash = "bfe08e2ba95000152b5ddb678f251de4a025346f"
 
 [[deps.ArgParse]]
 deps = ["Logging", "TextWrap"]
@@ -21,14 +21,6 @@ deps = ["CodecZlib", "Dates", "FilePathsBase", "InlineStrings", "Mmap", "Parsers
 git-tree-sha1 = "6c834533dc1fabd820c1db03c839bf97e45a3fab"
 uuid = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 version = "0.10.14"
-
-[[deps.CSVFiles]]
-deps = ["DataFrames", "DelimitedFiles", "StringEncodings"]
-git-tree-sha1 = "68b65f2ff9e350a4b5122654869ca63d6107c0b2"
-repo-rev = "main"
-repo-url = "git@github.com:dokudo91/CSVFiles.jl.git"
-uuid = "e4dcddb1-e0bd-46cb-8968-42cd95f44d7e"
-version = "0.1.0"
 
 [[deps.CodecZlib]]
 deps = ["TranscodingStreams", "Zlib_jll"]
@@ -81,12 +73,6 @@ version = "1.0.0"
 [[deps.Dates]]
 deps = ["Printf"]
 uuid = "ade2ca70-3891-5945-98fb-dc099432e06a"
-
-[[deps.DelimitedFiles]]
-deps = ["Mmap"]
-git-tree-sha1 = "9e2f36d3c96a820c678f2f1f1782582fcf685bae"
-uuid = "8bb1440f-4735-579b-a4ab-409b98df4dab"
-version = "1.9.1"
 
 [[deps.FilePathsBase]]
 deps = ["Compat", "Dates", "Mmap", "Printf", "Test", "UUIDs"]

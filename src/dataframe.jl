@@ -7,7 +7,7 @@ using DataFrames, Dates, CSV
 最新の日付の銘柄のみを取得する。
 # Example
 ```jldoctest
-topixdf = load_topixdf("topixweight_j.csv")
+topixdf = CSV.File("topixweight_j.csv") |> DataFrame
 df = filter_active(topixdf)
 allequal(df.日付)
 
@@ -30,7 +30,7 @@ end
 コードで銘柄をDataFrameに追加する。
 # Example
 ```jldoctest
-topixdf = load_topixdf("topixweight_j.csv")
+topixdf = CSV.File("topixweight_j.csv") |> DataFrame
 add_code!(topixdf, "1000")
 topixdf[end, :コード]
 
