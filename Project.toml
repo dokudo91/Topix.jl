@@ -1,0 +1,11 @@
+name = "Topix"
+uuid = "c0674c87-552a-47ed-b7e7-51f113bb7a98"
+authors = ["dokudo91 <92647519+dokudo91@users.noreply.github.com>"]
+version = "0.1.1"
+
+[deps]
+ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+CSVFiles = "e4dcddb1-e0bd-46cb-8968-42cd95f44d7e"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+StringEncodings = "69024149-9ee7-55f6-a4c4-859efe599b68"
